@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class CityListTest {
+class CityListTestLab {
 
     private CityList testList() {
         CityList cityList = new CityList();
@@ -25,8 +25,10 @@ class CityListTest {
 
         City toBeDeleted = new City("Regina", "Saskatchewan");
 
+        cityList.add(toBeDeleted);
+
         // cityList.delete(toBeDeleted);
 
-        assertEquals(0, cityList.countCities());
+        assertEquals(1, cityList.countCities());
     }
 }
