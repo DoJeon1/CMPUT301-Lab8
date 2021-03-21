@@ -1,0 +1,4 @@
+#Sun Mar 21 03:49:10 MDT 2021
+base.0=/Users/donghwan/Documents/School/Year4/21W/CMPUT301/cmput301-lab8/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
