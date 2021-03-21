@@ -27,7 +27,7 @@ class CityListTestLab {
 
         cityList.add(toBeDeleted);
 
-        // cityList.delete(toBeDeleted);
+        cityList.delete(toBeDeleted);
 
         assertEquals(1, cityList.countCities());
     }
